@@ -39,6 +39,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/instrume
 | Klassenstufe | [Vokabular](http://w3id.org/openeduhub/vocabs/educationalLevel/) | url: 'http://w3id.org/openeduhub/vocabs/educationalLevel/', Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt | f0 |
 | Für SPF geeignet | Ja/Nein | Text für WAHR: ja, Text für FALSCH: nein | f23 |
 | Art der Erhebung | [Vokabular](https://w3id.org/iqb/v85/dt/) | url: 'https://w3id.org/iqb/v85/dt/', Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt | f1 |
+| Kopfhörereinsatz | [Vokabular](https://w3id.org/iqb/v24/kh/) | url: 'https://w3id.org/iqb/v24/kh/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_phones |
 | Untersuchungsdesign | [Vokabular](https://w3id.org/iqb/v85/ed/) | url: 'https://w3id.org/iqb/v85/ed/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | f4 |
 | Erhebungseinheit | [Vokabular](https://w3id.org/iqb/v85/ee/) | url: 'https://w3id.org/iqb/v85/ee/', Mehrfachauswahl, Dialogbox | f6 |
 

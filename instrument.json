@@ -70,6 +70,21 @@
           }
         },
         {
+          "id": "iqb_phones",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Kopfhörereinsatz"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v24/kh/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
           "id": "f4",
           "label": [
             {
