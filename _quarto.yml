@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  site-url: https://iqb-vocabs.github.io/p44/
+  favicon: favicon.ico
+  page-navigation: true
+  repo-url: https://github.com/iqb-vocabs/p44/
+  navbar:
+    logo: iqb-logo-black.png
+    search: true
+    left:
+        - href: index.qmd
+          text: "Metadatenprofile für Survey Content Package"
+    right:
+      - icon: github
+        href: https://github.com/iqb-vocabs/p44
+        aria-label: Source Code
+
+
+lang: de
+format:
+  html:
+    theme: cosmo
+    toc: true
