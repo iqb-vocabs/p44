@@ -118,7 +118,12 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#survey-content-package-index" id="toc-survey-content-package-index" class="nav-link active" data-scroll-target="#survey-content-package-index">Survey Content Package Index</a></li>
   <li><a href="#survey-content-package-part" id="toc-survey-content-package-part" class="nav-link" data-scroll-target="#survey-content-package-part">Survey Content Package Part</a></li>
-  <li><a href="#survey-content-package-instrument" id="toc-survey-content-package-instrument" class="nav-link" data-scroll-target="#survey-content-package-instrument">Survey Content Package Instrument</a></li>
+  <li><a href="#survey-content-package-instrument" id="toc-survey-content-package-instrument" class="nav-link" data-scroll-target="#survey-content-package-instrument">Survey Content Package Instrument</a>
+  <ul class="collapse">
+  <li><a href="#allgemein" id="toc-allgemein" class="nav-link" data-scroll-target="#allgemein">Allgemein</a></li>
+  <li><a href="#konstrukte" id="toc-konstrukte" class="nav-link" data-scroll-target="#konstrukte">Konstrukte</a></li>
+  <li><a href="#durchführung" id="toc-durchführung" class="nav-link" data-scroll-target="#durchführung">Durchführung</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -254,6 +259,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="survey-content-package-instrument" class="level1">
 <h1>Survey Content Package Instrument</h1>
 <p>ID of profile: <code>https://raw.githubusercontent.com/iqb-vocabs/p44/master/instrument.json</code></p>
+<section id="allgemein" class="level2">
+<h2 class="anchored" data-anchor-id="allgemein">Allgemein</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 15%">
@@ -283,24 +290,6 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">f23</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Art der Erhebung</td>
-<td style="text-align: center;"><a href="https://w3id.org/iqb/v85/dt/">Vokabular</a></td>
-<td style="text-align: left;">url: ‘https://w3id.org/iqb/v85/dt/’, Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt</td>
-<td style="text-align: center;">f1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Kopfhörereinsatz</td>
-<td style="text-align: center;"><a href="https://w3id.org/iqb/v24/kh/">Vokabular</a></td>
-<td style="text-align: left;">url: ‘https://w3id.org/iqb/v24/kh/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt</td>
-<td style="text-align: center;">iqb_phones</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Untersuchungsdesign</td>
-<td style="text-align: center;"><a href="https://w3id.org/iqb/v85/ed/">Vokabular</a></td>
-<td style="text-align: left;">url: ‘https://w3id.org/iqb/v85/ed/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt</td>
-<td style="text-align: center;">f4</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Erhebungseinheit</td>
 <td style="text-align: center;"><a href="https://w3id.org/iqb/v85/ee/">Vokabular</a></td>
 <td style="text-align: left;">url: ‘https://w3id.org/iqb/v85/ee/’, Mehrfachauswahl, Dialogbox</td>
@@ -308,8 +297,93 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+</section>
+<section id="konstrukte" class="level2">
+<h2 class="anchored" data-anchor-id="konstrukte">Konstrukte</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 55%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name/Label</th>
+<th style="text-align: center;">Typ</th>
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: center;">ID Profil-Eintrag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Leistungsdaten</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v87/ca/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v87/ca/’, Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt</td>
+<td style="text-align: center;">w101</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fragebogen</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v87/cq/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v87/cq/’, Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt</td>
+<td style="text-align: center;">w102</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="durchführung" class="level2">
+<h2 class="anchored" data-anchor-id="durchführung">Durchführung</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 55%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name/Label</th>
+<th style="text-align: center;">Typ</th>
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: center;">ID Profil-Eintrag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Zeit für Durchführung Minuten gesamt</td>
+<td style="text-align: center;">Zahl</td>
+<td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein</td>
+<td style="text-align: center;">iqb_time_booklet</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Art der Erhebung</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v85/dt/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v85/dt/’, Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt</td>
+<td style="text-align: center;">f1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Kopfhörereinsatz</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v24/kh/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v24/kh/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt</td>
+<td style="text-align: center;">iqb_phones</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Taschenrechnereinsatz</td>
+<td style="text-align: center;">Ja/Nein</td>
+<td style="text-align: left;">Text für WAHR: ja, Text für FALSCH: nein</td>
+<td style="text-align: center;">iqb_calculator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Untersuchungsdesign</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v85/ed/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v85/ed/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt</td>
+<td style="text-align: center;">f4</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
