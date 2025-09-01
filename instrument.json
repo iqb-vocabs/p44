@@ -11,7 +11,7 @@
       "label": [
         {
           "lang": "de",
-          "value": "Survey Content Package Instrument"
+          "value": "Allgemein"
         }
       ],
       "entries": [
@@ -55,6 +55,86 @@
           }
         },
         {
+          "id": "f6",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Erhebungseinheit"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v85/ee/",
+            "allowMultipleValues": true,
+            "hideNumbering": false
+          }
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Konstrukte"
+        }
+      ],
+      "entries": [
+        {
+          "id": "w101",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Leistungsdaten"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v87/ca/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "w102",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Fragebogen"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v87/cq/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Durchführung"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_time_booklet",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Zeit für Durchführung Minuten gesamt"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": false
+          }
+        },
+        {
           "id": "f1",
           "label": [
             {
@@ -85,6 +165,30 @@
           }
         },
         {
+          "id": "iqb_calculator",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Taschenrechnereinsatz"
+            }
+          ],
+          "type": "boolean",
+          "parameters": {
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "ja"
+              }
+            ],
+            "falseLabel": [
+              {
+                "lang": "de",
+                "value": "nein"
+              }
+            ]
+          }
+        },
+        {
           "id": "f4",
           "label": [
             {
@@ -97,21 +201,6 @@
             "url": "https://w3id.org/iqb/v85/ed/",
             "allowMultipleValues": false,
             "hideNumbering": true
-          }
-        },
-        {
-          "id": "f6",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Erhebungseinheit"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v85/ee/",
-            "allowMultipleValues": true,
-            "hideNumbering": false
           }
         }
       ]
