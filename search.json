@@ -2,28 +2,28 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Metadatenprofile für Survey Content Package",
+    "title": "Metadatenprofile für Assessment Content Package",
     "section": "",
-    "text": "ID of profile-store: scp\nCreator: IQB - Institut zur Qualitätsentwicklung im Bildungswesen\n3 Profile definiert:"
+    "text": "ID of profile-store: acp\nCreator: IQB - Institut zur Qualitätsentwicklung im Bildungswesen\n3 Profile definiert:"
   },
   {
     "objectID": "index.html#allgemein",
     "href": "index.html#allgemein",
-    "title": "Metadatenprofile für Survey Content Package",
+    "title": "Metadatenprofile für Assessment Content Package",
     "section": "Allgemein",
     "text": "Allgemein\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nKlassenstufe\nVokabular\nurl: ‘http://w3id.org/openeduhub/vocabs/educationalLevel/’, Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt\nf0\n\n\nFür SPF geeignet\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\nf23\n\n\nErhebungseinheit\nVokabular\nurl: ‘https://w3id.org/iqb/v85/ee/’, Mehrfachauswahl, Dialogbox\nf6"
   },
   {
     "objectID": "index.html#konstrukte",
     "href": "index.html#konstrukte",
-    "title": "Metadatenprofile für Survey Content Package",
+    "title": "Metadatenprofile für Assessment Content Package",
     "section": "Konstrukte",
     "text": "Konstrukte\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nLeistungsdaten\nVokabular\nurl: ‘https://w3id.org/iqb/v87/ca/’, Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt\nw101\n\n\nFragebogen\nVokabular\nurl: ‘https://w3id.org/iqb/v87/cq/’, Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt\nw102"
   },
   {
     "objectID": "index.html#durchführung",
     "href": "index.html#durchführung",
-    "title": "Metadatenprofile für Survey Content Package",
+    "title": "Metadatenprofile für Assessment Content Package",
     "section": "Durchführung",
     "text": "Durchführung\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nZeit für Durchführung Minuten gesamt\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein\niqb_time_booklet\n\n\nArt der Erhebung\nVokabular\nurl: ‘https://w3id.org/iqb/v85/dt/’, Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt\nf1\n\n\nKopfhörereinsatz\nVokabular\nurl: ‘https://w3id.org/iqb/v24/kh/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\niqb_phones\n\n\nTaschenrechnereinsatz\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\niqb_calculator\n\n\nUntersuchungsdesign\nVokabular\nurl: ‘https://w3id.org/iqb/v85/ed/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\nf4"
   }
