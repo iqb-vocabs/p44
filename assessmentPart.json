@@ -1,9 +1,9 @@
 {
-  "id": "https://raw.githubusercontent.com/iqb-vocabs/p44/master/surveyPart.json",
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p44/master/assessmentPart.json",
   "label": [
     {
       "lang": "de",
-      "value": "Survey Content Package Part"
+      "value": "Assessement Content Package Part"
     }
   ],
   "groups": [
@@ -11,7 +11,7 @@
       "label": [
         {
           "lang": "de",
-          "value": "Survey Content Package Part"
+          "value": "Assessement Content Package Part"
         }
       ],
       "entries": [

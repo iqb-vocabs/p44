@@ -1,16 +1,16 @@
 {
-  "id": "scp",
+  "id": "acp",
   "title": [
     {
       "lang": "de",
-      "value": "Metadatenprofile für Survey Content Package"
+      "value": "Metadatenprofile für Assessment Content Package"
     }
   ],
   "maintainer": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "profiles": [
     "index.json",
-    "surveyPart.json",
+    "assessmentPart.json",
     "instrument.json"
   ]
 }

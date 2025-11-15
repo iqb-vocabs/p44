@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC0-1.0",
-  "description": "Metadatenprofile für Survey Content Package",
+  "description": "Metadatenprofile für Assessment Content Package",
   "scripts": {
     "validate": "validate-md-profile && validate-md-profile -md"
   },

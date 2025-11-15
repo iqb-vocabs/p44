@@ -11,7 +11,7 @@ website:
     search: true
     left:
         - href: index.qmd
-          text: "Metadatenprofile für Survey Content Package"
+          text: "Metadatenprofile für Assessment Content Package"
     right:
       - icon: github
         href: https://github.com/iqb-vocabs/p44

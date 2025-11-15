@@ -1,12 +1,12 @@
-# Metadatenprofile für Survey Content Package
+# Metadatenprofile für Assessment Content Package
 
-ID of profile-store: `scp`
+ID of profile-store: `acp`
 
 Creator: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 3 Profile definiert:
 
-## Profil "Survey Content Package Index"
+## Profil "Assessment Content Package Index"
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/index.json`
 
@@ -18,9 +18,9 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/index.js
 | Erhebungsverfahren | [Vokabular](https://w3id.org/iqb/v85/v2/) | url: 'https://w3id.org/iqb/v85/v2/', Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt | e5 |
 | Erhebungseinheit | [Vokabular](https://w3id.org/iqb/v85/ee/) | url: 'https://w3id.org/iqb/v85/ee/', Mehrfachauswahl, Dialogbox | e6 |
 
-## Profil "Survey Content Package Part"
+## Profil "Assessement Content Package Part"
 
-ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/surveyPart.json`
+ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/assessmentPart.json`
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
@@ -30,7 +30,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/surveyPa
 | Untersuchungsdesign | [Vokabular](https://w3id.org/iqb/v85/ed/) | url: 'https://w3id.org/iqb/v85/ed/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | f4 |
 | Erhebungseinheit | [Vokabular](https://w3id.org/iqb/v85/ee/) | url: 'https://w3id.org/iqb/v85/ee/', Mehrfachauswahl, Dialogbox | f6 |
 
-## Profil "Survey Content Package Instrument"
+## Profil "Assessment Content Package Instrument"
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/instrument.json`
 

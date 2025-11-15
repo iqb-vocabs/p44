@@ -1,14 +1,14 @@
 ---
-title: Metadatenprofile für Survey Content Package
+title: Metadatenprofile für Assessment Content Package
 ---
 
-ID of profile-store: `scp`
+ID of profile-store: `acp`
 
 Creator: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 3 Profile definiert:
 
-# Survey Content Package Index
+# Assessment Content Package Index
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/index.json`
 
@@ -22,9 +22,9 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/index.js
 
 : {tbl-colwidths="[15,15,55,15]"}
 
-# Survey Content Package Part
+# Assessement Content Package Part
 
-ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/surveyPart.json`
+ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/assessmentPart.json`
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
@@ -36,7 +36,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/surveyPa
 
 : {tbl-colwidths="[15,15,55,15]"}
 
-# Survey Content Package Instrument
+# Assessment Content Package Instrument
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p44/master/instrument.json`
 
